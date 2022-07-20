@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0px;
+    background-color:rgb(186, 186, 182);
+}
+header{
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: black;
+    color:lemonchiffon;
+}
+header h1{
+    font-size: 70px;
+    background-color: black;
+    background-attachment: fixed;
+}
+header h3{
+    text-align-last: right;
+    background-color: black;
+    background-attachment: fixed;
+}
+h2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+    background-color:rgb(66, 66, 66) ;
+    text-align: left;
+    padding: 10px;
+    float: left;
+    font-weight: 400;
+}
+nav{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    display: flex;
+    background-color:rgb(66, 66, 66);
+    overflow: hidden;
+}
+nav a:hover{
+    font-style: normal;
+    color: rgb(11, 90, 74);
+    background-color: lightslategray;
+    padding-inline: 30px;
+    border-radius: 40px;
+    font-weight: 400;
+}
+#flex-alignRight{
+    margin-left: auto;
+    margin-right: 10px;
+    padding-inline: 25px;
+    
+}
+
+section h2 span{
+    background-color: gainsboro;
+    padding: 20px 25px;
+    border-radius: 5%;
+    color: black;
+}
+section{
+    padding-top: 50px;
+}
+.box{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: gainsboro;
+    color: black;
+    font-size: large;
+    text-align: justify;
+    margin-bottom: 5%;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5%;
+    font-weight: 300;
+    word-spacing: 10px;
+
+    border-width: 15px;
+    border-color: black;
+    border-style: double ;
+}
+
+  .carousel-cell {
+    align-self: stretch;
+    width: 80%;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+.footer-container{
+    background-color:rgb(66, 66, 66);
+    padding-bottom: 2px;
+    margin: auto;
+    overflow: hidden;
+    
+}
+.footer{
+    padding-top: 50px;
+    width: 100%;
+    height: 40vh;
+    background-color:rgb(66, 66, 66);
+    color:  rgb(46, 212, 179);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer-heading{
+    background-color: rgb(66, 66, 66);
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+.footer-heading h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#fff ;
+    margin-bottom: 5px;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    display: flex;
+    background:rgb(66, 66, 66);
+}
+
+.footer-heading h4{
+    background:rgb(66, 66, 66);
+    position: relative;
+    margin-bottom: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer-heading a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;             
+    text-shadow: 12px;
+    background: rgb(66, 66, 66);
+}
+.footer-heading a:hover{
+    background-color: lightslategray;
+    border-radius: 40px;
+    padding: 10px 15px;
+    transition: 0.5s ease-out;
+}
+.footer-heading footer-2 a{
+    
+}
+@media screen  and (max-width: 500px){
+    nav{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    .flex-alignRight{
+        margin-left: 0;
+    }
+}
